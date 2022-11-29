@@ -1,0 +1,33 @@
+body {
+    background-image: url('images/space.jpg');
+    background-color: #ff48fa;
+}
+.logo{
+    width: 18%;
+    margin-left: 10%;
+}
+.searchbar{
+    border: 3px solid rgb(233, 19, 233);
+}
+button.button {
+    
+    font-family: 'Avenir Next';
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+  }
+  .butbor{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+  }
+  
+  button.button:hover {
+    box-shadow: none;
+    color: white;
+  }
+  .contentdb{
+    color:#F10086;
+  }
